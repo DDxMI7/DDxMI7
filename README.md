@@ -56,6 +56,21 @@
 ```
 
 </td>
+<td width="auto" valign="top">
+
+### `$ cat joke.json?`
+  
+```
+A programmer's wife tells him:
+"Go buy a loaf of bread.
+ If they have eggs, buy a dozen."
+
+He returns with 12 loaves.
+
+"Why 12 loaves?"
+"They had eggs."
+```
+</td>
 </tr>
 </table>
 
@@ -76,27 +91,6 @@
 [2026-01-29 03:42:10] DEBUG This is fine. Totally fine.
 ```
 
----
-
-## `root@github:~#` ./show_stats.sh
-
-```bash
-#!/bin/bash
-echo "Initializing stats dashboard..."
-echo "[✓] Connecting to GitHub API..."
-echo "[✓] Fetching contribution data..."
-echo "[✓] Rendering visualizations..."
-```
-
-<div align="center">
-
-```
-╔════════════════════════════════════════════════════════════╗
-║                  SYSTEM DIAGNOSTICS                        ║
-╚════════════════════════════════════════════════════════════╝
-```
-
-</div>
 
 <table>
 <tr>
@@ -114,15 +108,11 @@ echo "[✓] Rendering visualizations..."
 
 </div>
 
-```bash
-echo "[✓] Stats loaded successfully"
-```
-
 ---
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="auto" valign="top">
 
 ## `$ history | tail -10`
 
@@ -140,34 +130,8 @@ echo "[✓] Stats loaded successfully"
 ```
 
 </td>
-<td width="50%" valign="top">
 
-## `$ tree projects/`
-
-```bash
-projects/
-├── active/
-│   ├── learning/  [████████░░]
-│   ├── project-42/ [███░░░░░░]
-│   └── oss/       [██████░░░]
-└── graveyard/
-    ├── project-1/  # RIP
-    ├── project-2/  # RIP
-    └── project-3/  # RIP
-```
-
-</td>
-</tr>
-</table>
-
-> **Pro Tip:** The graveyard grows faster than the active folder. This is the way.
-
-
----
-
-<table>
-<tr>
-<td width="50%" valign="top">
+<td width="auto" valign="top">
 
 ## `$ crontab -l`
 
@@ -189,7 +153,7 @@ projects/
 ```
 
 </td>
-<td width="50%" valign="top">
+<td width="auto" valign="top">
 
 ## `$ ps aux | grep process`
 
@@ -301,10 +265,7 @@ DDxMI7  1343   0.1  /usr/bin/sleep
 </td>
 <td align="center">
 
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)]
-
-</td>
-<td align="center">
+![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)
 
 </td>
 </tr>
@@ -312,45 +273,10 @@ DDxMI7  1343   0.1  /usr/bin/sleep
 
 </div>
 
----
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-
-
-```
-A programmer's wife tells him:
-"Go buy a loaf of bread.
- If they have eggs, buy a dozen."
-
-He returns with 12 loaves.
-
-"Why 12 loaves?"
-"They had eggs."
-```
-
-</td>
-<td width="50%" align="center">
-
 <img src="https://komarev.com/ghpvc/?username=DDxMI7&color=00FF00&style=for-the-badge&label=INTRUSION+ATTEMPTS" />
-```
-Visitor #: [ENCRYPTED]
-IP Logged: Maybe... 
-```
-
-</td>
-</tr>
-</table>
 
 ---
-
-<div align="center">
-
-**[⬆ back to top](#)**
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=120&section=footer)
 
-</div>
 </div>
