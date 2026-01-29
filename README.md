@@ -1,4 +1,5 @@
 <div align="center">
+<div align="center">
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
@@ -355,4 +356,5 @@ IP Logged: Maybe...
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=120&section=footer)
 
+</div>
 </div>
