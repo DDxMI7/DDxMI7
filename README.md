@@ -111,10 +111,23 @@ He returns with 12 loaves.
 ---
 
 <table>
-<tr>
+  <tr>
 <td width="auto" valign="top">
 
 ## `$ history | tail -10`
+</td>
+<td width="auto" valign="top">
+
+## `$ crontab -l`
+
+</td>
+<td width="auto" valign="top">
+
+## `$ ps aux | grep process`
+</td>
+</tr>
+<tr>
+<td width="auto" valign="top">
 
 ```bash
 1337  git clone repo
@@ -132,8 +145,6 @@ He returns with 12 loaves.
 </td>
 
 <td width="auto" valign="top">
-
-## `$ crontab -l`
 
 ```bash
 # Daily routines
@@ -154,8 +165,6 @@ He returns with 12 loaves.
 
 </td>
 <td width="auto" valign="top">
-
-## `$ ps aux | grep process`
 
 ```bash
 DDxMI7  1337  94.2  /usr/bin/code
@@ -181,7 +190,7 @@ DDxMI7  1343   0.1  /usr/bin/sleep
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="auto" valign="top">
 
 ## `$ cat philosophy.txt`
 
@@ -196,7 +205,7 @@ DDxMI7  1343   0.1  /usr/bin/sleep
 ```
 
 </td>
-<td width="34%" valign="top">
+<td width="auto" valign="top">
 
 ## `$ fortune`
 
@@ -210,7 +219,7 @@ DDxMI7  1343   0.1  /usr/bin/sleep
 ```
 
 </td>
-<td width="33%" valign="top">
+<td width="auto" valign="top">
 
 ## `$ lang`
 
