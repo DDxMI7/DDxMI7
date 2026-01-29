@@ -110,8 +110,6 @@ echo "[✓] Rendering visualizations..."
 
 <div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DDxMI7&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=00FF41)
-
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DDxMI7&theme=high-contrast&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=00FF41&area=true&custom_title=Contribution%20Activity)
 
 </div>
@@ -303,12 +301,10 @@ DDxMI7  1343   0.1  /usr/bin/sleep
 </td>
 <td align="center">
 
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)]
 
 </td>
 <td align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/yourusername)
 
 </td>
 </tr>
