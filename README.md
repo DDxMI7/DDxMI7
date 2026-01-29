@@ -60,7 +60,7 @@
 
 ### `$ cat joke.json?`
   
-```
+```json
 A programmer's wife tells him:
 "Go buy a loaf of bread.
  If they have eggs, buy a dozen."
@@ -114,7 +114,7 @@ He returns with 12 loaves.
   <tr>
 <td width="auto" valign="top">
 
-## `$ history | tail -10`
+## `$ history`
 </td>
 <td width="auto" valign="top">
 
