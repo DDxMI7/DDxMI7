@@ -103,7 +103,6 @@ echo "[✓] Dashboard operational"
   1347  sudo rm -rf node_modules # The classic move
   1348  npm install # Here we go again
   1349  git commit -m "feat: add new feature" --allow-empty
-  1350  # Flag #4: base64 decode this -> RkxBR3s0X2Rvd25fMV90b19nb30=
 ```
 
 ---
@@ -223,8 +222,6 @@ tcp        0      0 0.0.0.0:linkedin        0.0.0.0:*               LISTEN
 ## `root@github:~#` cat philosophy.txt
 
 ```bash
-┌──(DDxMI7㉿github)-[~]
-└─$ cat ~/Documents/wisdom.txt
 
 ╔═══════════════════════════════════════════════════════════╗
 ║                                                           ║
@@ -238,12 +235,6 @@ tcp        0      0 0.0.0.0:linkedin        0.0.0.0:*               LISTEN
 ║                               - Famous Last Words         ║
 ║                                                           ║
 ╚═══════════════════════════════════════════════════════════╝
-```
-
-```bash
-└─$ echo "Real programmers count from 0" | base64
-# UmVhbCBwcm9ncmFtbWVycyBjb3VudCBmcm9tIDA=
-# CTF Hunters: This is FLAG{5_of_5_y0u_f0und_th3m_4ll} in rot13
 ```
 
 ---
