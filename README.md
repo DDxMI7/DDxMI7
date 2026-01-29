@@ -19,6 +19,12 @@
 
 ---
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `$ cat profile.json`
+
 ```json
 {
   "username": "DDxMI7",
@@ -27,17 +33,34 @@
   "shell": "/bin/bash",
   "editor": "vim",
   "status": "building & breaking things",
-  "coffee_addiction": true,
+  "coffee_addiction": true
+}
+```
+
+</td>
+<td width="50%" valign="top">
+
+### `$ cat interests.json`
+
+```json
+{
   "interests": [
     "Web Development",
     "CTF Challenges", 
     "Open Source",
     "Breaking & Fixing Code"
-  ]
+  ],
+  "currently_learning": "Everything"
 }
 ```
 
+</td>
+</tr>
+</table>
+
 ---
+
+## `root@github:~#` tail -f activity.log
 
 ```diff
 [2026-01-29 03:42:01] INFO  Starting new project...
@@ -54,17 +77,14 @@
 
 ---
 
+## `root@github:~#` ./show_stats.sh
+
 ```bash
 #!/bin/bash
-# GitHub Statistics Renderer v2.0
-# License: MIT | Author: DDxMI7
-
 echo "Initializing stats dashboard..."
-sleep 0.5
 echo "[✓] Connecting to GitHub API..."
 echo "[✓] Fetching contribution data..."
 echo "[✓] Rendering visualizations..."
-echo ""
 ```
 
 <div align="center">
@@ -75,203 +95,186 @@ echo ""
 ╚════════════════════════════════════════════════════════════╝
 ```
 
+</div>
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DDxMI7&theme=high-contrast&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=00FF41&area=true&custom_title=Contribution%20Activity%20%7C%20Total%20Commits%20%3D%20FLAG_3)
+<table>
+<tr>
+<td width="50%" align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DDxMI7&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=00FF41&ring_color=00FF41)
+
+</td>
+<td width="50%" align="center">
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DDxMI7&theme=black-ice&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DDxMI7&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=00FF41)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DDxMI7&theme=high-contrast&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=00FF41&area=true&custom_title=Contribution%20Activity)
 
 </div>
 
 ```bash
 echo "[✓] Stats loaded successfully"
-echo "[✓] Dashboard operational"
 ```
 
 ---
 
-## `root@github:~#` history | grep interesting
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## `$ history | tail -10`
 
 ```bash
-  1337  git clone https://github.com/awesome-project
-  1338  cd awesome-project && npm install
-  1339  vim src/totally-not-a-bug.js
-  1340  npm test # Narrator: The tests did not pass
-  1341  git add . && git commit -m "fixed the bug (maybe)"
-  1342  git push origin main --force # YOLO
-  1343  docker-compose up -d
-  1344  curl localhost:3000/api/health
-  1345  # Returns 200 OK - Shocked Pikachu face
-  1346  echo "It works on my machine" >> excuses.txt
-  1347  sudo rm -rf node_modules # The classic move
-  1348  npm install # Here we go again
-  1349  git commit -m "feat: add new feature" --allow-empty
+1337  git clone repo
+1338  npm install
+1339  vim src/bug.js
+1340  npm test
+1341  git commit -m "fix"
+1342  git push --force
+1343  docker-compose up -d
+1344  curl localhost:3000
+1345  echo "It works!"
+1346  sudo rm -rf node_modules
 ```
 
----
+</td>
+<td width="50%" valign="top">
 
-## `root@github:~#` ./projects --status
+## `$ tree projects/`
 
 ```bash
-
 projects/
-├── .git/
-├── README.md
-├── .env.example
 ├── active/
-│   ├── learning-new-tech/     [████████░░] In Progress
-│   ├── side-project-42/       [███░░░░░░░] Planning
-│   └── oss-contributions/     [██████░░░░] Active
-├── ideas/
-│   ├── that-cool-thing.md
-│   ├── will-i-ever-build-this.md
-│   └── definitely-gonna-finish-this-one.md  # Narrator: They won't
+│   ├── learning/  [████████░░]
+│   ├── project-42/ [███░░░░░░]
+│   └── oss/       [██████░░░]
 └── graveyard/
-    ├── unfinished-project-1/  # RIP
-    ├── unfinished-project-2/  # RIP  
-    └── unfinished-project-3/  # Also RIP
-
-3 directories, 42 files
+    ├── project-1/  # RIP
+    ├── project-2/  # RIP
+    └── project-3/  # RIP
 ```
+
+</td>
+</tr>
+</table>
 
 > **Pro Tip:** The graveyard grows faster than the active folder. This is the way.
 
----
-
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════╗
-║                      TECH ARSENAL                         ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=00FF41)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=00FF41)
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00FF41)
-![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=00FF41)
-![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=00FF41)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00FF41)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=00FF41)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=00FF41)
-![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=00FF41)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00FF41)
-![Vim](https://img.shields.io/badge/VIM-0D1117?style=for-the-badge&logo=vim&logoColor=00FF41)
-![VS Code](https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=00FF41)
-
-</div>
 
 ---
 
-## `root@github:~#` crontab -l
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## `$ crontab -l`
 
 ```bash
-# DDxMI7's Cron Jobs
-# m h  dom mon dow   command
-
 # Daily routines
-0  9  * * * /usr/bin/drink_coffee --amount=excessive
-30 9  * * * cd ~/projects && git pull --all
-0  10 * * * /usr/local/bin/procrastinate_on_twitter.sh
-0  14 * * * echo "I should really work on that project..." >> todo.txt
-0  22 * * * git add . && git commit -m "$(curl -s whatthecommit.com/index.txt)"
-0  23 * * * /usr/local/bin/promise_to_sleep_early.sh # Never executes
+0  9  * * * drink_coffee --excessive
+30 9  * * * git pull --all
+0  10 * * * procrastinate.sh
+0  22 * * * random_commit.sh
+0  23 * * * sleep_early.sh
 
 # Weekly
-0  10 * * 1 /usr/local/bin/weekly_existential_crisis.sh
-0  15 * * 5 /usr/local/bin/deploy_weekend_project.sh # Usually fails
+0  10 * * 1 existential_crisis.sh
+0  15 * * 5 deploy_project.sh
 
-# Monthly  
-0  0  1 * * /usr/local/bin/update_skills_but_not_resume.sh
-0  0  1 * * echo "This month I'll finish my side projects!" # Lies
-
-# Yearly
-0  0  1 1 * echo "New year, new me, new tech stack" # Classic
+# Monthly
+0  0  1 * * update_skills.sh
+0  0  1 * * finish_projects.sh
 ```
+
+</td>
+<td width="50%" valign="top">
+
+## `$ ps aux | grep process`
+
+```bash
+DDxMI7  1337  94.2  /usr/bin/code
+DDxMI7  1338  87.3  /usr/bin/learn
+DDxMI7  1339  45.2  /usr/bin/build
+DDxMI7  1340  23.1  /usr/bin/debug
+DDxMI7  1341  15.7  /usr/bin/refactor
+DDxMI7  1342   8.4  /usr/bin/coffee
+DDxMI7  1343   0.1  /usr/bin/sleep
+```
+
+**Current Activities:**
+- 92% Coding & Development
+- 85% Learning New Tech
+- 78% Breaking Things
+- 8% Sleep (Overrated)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## `root@github:~#` netstat -tulpn | grep social
+<table>
+<tr>
+<td width="33%" valign="top">
 
-```bash
-┌──(DDxMI7㉿github)-[~]
-└─$ netstat -tulpn | grep LISTEN
-
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       
-tcp        0      0 0.0.0.0:github          0.0.0.0:*               LISTEN      
-tcp        0      0 0.0.0.0:email           0.0.0.0:*               LISTEN      
-tcp        0      0 0.0.0.0:twitter         0.0.0.0:*               MAYBE       
-tcp        0      0 0.0.0.0:linkedin        0.0.0.0:*               LISTEN      
-```
-
-<div align="center">
+## `$ cat philosophy.txt`
 
 ```
-╔═══════════════════════════════════════════════════════════╗
-║                   NETWORK ENDPOINTS                       ║
-╚═══════════════════════════════════════════════════════════╝
+╔═══════════════════════════════╗
+║                               ║
+║  "Talk is cheap.              ║
+║   Show me the code."          ║
+║   - Linus Torvalds            ║
+║                               ║
+╚═══════════════════════════════╝
 ```
 
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/DDxMI7)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/yourusername)
-[![Twitter](https://img.shields.io/badge/Twitter-0D1117?style=for-the-badge&logo=twitter&logoColor=00FF41)](https://twitter.com/yourusername)
+</td>
+<td width="34%" valign="top">
 
-</div>
+## `$ fortune`
+
+```
+╔═══════════════════════════════╗
+║                               ║
+║  "It works on my machine."    ║
+║  - Every Developer Ever       ║
+║                               ║
+╚═══════════════════════════════╝
+```
+
+</td>
+<td width="33%" valign="top">
+
+## `$ lang`
+
+```
+╔═══════════════════════════════╗
+║                               ║
+║  "Si++"                       ║
+║  - The most spanish language  ║
+║                               ║
+╚═══════════════════════════════╝
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
-## `root@github:~#` cat philosophy.txt
+## `root@github:~#` git log --oneline --graph
 
 ```bash
-
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║  "Talk is cheap. Show me the code."                      ║
-║                               - Linus Torvalds            ║
-║                                                           ║
-║  "It works on my machine."                               ║
-║                               - Every Developer Ever      ║
-║                                                           ║
-║  "I'll just quickly fix this bug..."                     ║
-║                               - Famous Last Words         ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
----
-
-## `root@github:~#` ps aux | grep hobbies
-
-```bash
-USER       PID  %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-DDxMI7    1337  94.2  8.3  512.2m 64.2m pts/0   Sl+  00:01 100:42 /usr/bin/code
-DDxMI7    1338  87.3  4.2  256.8m 32.1m pts/1   Sl+  00:01  89:17 /usr/bin/learn
-DDxMI7    1339  45.2  2.1  128.4m 16.5m pts/2   Sl+  00:01  45:33 /usr/bin/build
-DDxMI7    1340  23.1  1.3   64.2m  8.1m pts/3   S+   00:01  23:15 /usr/bin/debug
-DDxMI7    1341  15.7  0.8   32.1m  4.2m pts/4   S+   00:01  15:42 /usr/bin/refactor
-DDxMI7    1342   8.4  0.4   16.5m  2.1m pts/5   S    00:01   8:23 /usr/bin/coffee
-DDxMI7    1343   0.1  0.0    8.2m  1.1m pts/6   S    00:01   0:08 /usr/bin/sleep
-```
-
-```
-Current Activities:
-├─ [92%] Coding & Development
-├─ [85%] Learning New Tech
-├─ [78%] Breaking Things (Accidentally)
-├─ [65%] Fixing Things (Intentionally)
-├─ [45%] Reading Documentation
-├─ [23%] Actually Reading Documentation
-└─ [8%]  Sleep (Overrated Anyway)
-```
-
----
-
-## `root@github:~#` tail -f /var/log/commits.log
-
-```bash
-┌──(DDxMI7㉿github)-[~/projects]
-└─$ git log --oneline --graph --all --decorate
-
-* a7f3d9e (HEAD -> main, origin/main) fix: typo in variable name
+* a7f3d9e (HEAD -> main) fix: typo in variable name
 * 2b8c4f1 feat: add new feature that nobody asked for
 * 9e1d6a3 refactor: rename variable from 'x' to 'y'
 * 5c7a2b8 fix: fix the fix that fixed the bug
@@ -282,42 +285,79 @@ Current Activities:
 * 7e3b6f2 commit before I break everything
 * 4d9a1c5 IT WORKS!!!! (I think...)
 ```
----
-
-## `root@github:~#` fortune
-
-```
-╔════════════════════════════════════════════════════════╗
-║                                                        ║
-║  A programmer's wife tells him:                       ║
-║  "Go to the store and buy a loaf of bread.           ║
-║   If they have eggs, buy a dozen."                    ║
-║                                                        ║
-║  He comes back with 12 loaves of bread.               ║
-║                                                        ║
-║  "Why did you buy 12 loaves?"                         ║
-║  "They had eggs."                                     ║
-║                                                        ║
-╚════════════════════════════════════════════════════════╝
-```
 
 ---
 
-## `root@github:~#` ./metrics.sh --visitors
+## `root@github:~#` netstat -tulpn | grep social
 
 <div align="center">
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
-║                   ACCESS METRICS                          ║
+║                   NETWORK ENDPOINTS                       ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
+<table>
+<tr>
+<td align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/DDxMI7)
+
+</td>
+<td align="center">
+
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:your.email@example.com)
+
+</td>
+<td align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/yourusername)
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+
+
+```
+A programmer's wife tells him:
+"Go buy a loaf of bread.
+ If they have eggs, buy a dozen."
+
+He returns with 12 loaves.
+
+"Why 12 loaves?"
+"They had eggs."
+```
+
+</td>
+<td width="50%" align="center">
+
 <img src="https://komarev.com/ghpvc/?username=DDxMI7&color=00FF00&style=for-the-badge&label=INTRUSION+ATTEMPTS" />
 ```
-Thank you for visiting my profile!
-You are visitor number: [ENCRYPTED]
-Your IP has been logged: Just kidding... or am I? 
+Visitor #: [ENCRYPTED]
+IP Logged: Maybe... 
 ```
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+**[⬆ back to top](#)**
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=120&section=footer)
 
 </div>
