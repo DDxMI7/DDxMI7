@@ -21,7 +21,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="auto" valign="top">
 
 ### `$ cat profile.json`
 
@@ -38,7 +38,7 @@
 ```
 
 </td>
-<td width="50%" valign="top">
+<td width="auto" valign="top">
 
 ### `$ cat interests.json`
 
@@ -99,12 +99,7 @@ echo "[✓] Rendering visualizations..."
 
 <table>
 <tr>
-<td width="50%" align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DDxMI7&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=00FF41&ring_color=00FF41)
-
-</td>
-<td width="50%" align="center">
+<td width="auto" align="center">
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DDxMI7&theme=black-ice&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41)
 
