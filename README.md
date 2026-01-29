@@ -1,10 +1,3 @@
-```
-███████████████████████████████████████████████████████████████████████████████
-█▄─▄▄▀█▄─▄▄▀█▄─▀─▄█▄─▀█▀─▄█▄─▄█░▄▄░▄█████████████████████████████████████████
-██─██─██─██─██─▄─███─█▄█─███─████▄▄███████████████████████████████████████████
-▀▄▄▄▄▀▀▄▄▄▄▀▀▄▄▄▄▀▀▄▄▄▀▄▄▄▀▄▄▄▀▀▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-```
-
 <div align="center">
 
 ```
@@ -26,13 +19,6 @@
 
 ---
 
-## `root@github:~#` whoami
-
-```bash
-┌──(DDxMI7㉿github)-[~]
-└─$ cat profile.json
-```
-
 ```json
 {
   "username": "DDxMI7",
@@ -51,65 +37,9 @@
 }
 ```
 
-```bash
-┌──(DDxMI7㉿github)-[~]
-└─$ echo $HIDDEN_FLAG_1
-# Nice try! Keep looking... 🚩
-```
-
 ---
-
-## `root@github:~#` ls -la /skills
-
-```bash
-┌──(DDxMI7㉿github)-[~/skills]
-└─$ ls -lah --color=auto
-
-total 256K
-drwxr-xr-x 12 DDxMI7 DDxMI7 4.0K Jan 29 03:14 .
-drwxr-xr-x 24 DDxMI7 DDxMI7 4.0K Jan 29 03:14 ..
-
-╔════════════════════════════════════════════════════════════╗
-║                     ACTIVE ARSENAL                         ║
-╚════════════════════════════════════════════════════════════╝
-
-┌─[Languages]
-│
-├─ JavaScript    [████████████████████░░]  92%
-├─ TypeScript    [█████████████████░░░░░]  85%
-├─ Python        [███████████████░░░░░░░]  75%
-├─ Bash/Shell    [████████████░░░░░░░░░]  60%
-├─ SQL           [██████████░░░░░░░░░░░]  50%
-└─ HTML/CSS      [██████████████████████]  98%
-
-┌─[Frameworks & Tools]
-│
-├─ React.js      [████████████████░░░░░]  80%
-├─ Node.js       [███████████████░░░░░░]  75%
-├─ Next.js       [█████████████░░░░░░░░]  65%
-├─ Docker        [████████████░░░░░░░░░]  60%
-├─ Git           [█████████████████████]  95%
-└─ Linux         [██████████████████░░░]  90%
-
-┌─[Databases]
-│
-├─ MongoDB       [███████████████░░░░░░]  75%
-├─ PostgreSQL    [██████████████░░░░░░░]  70%
-└─ Redis         [██████████░░░░░░░░░░░]  50%
-```
-
-```bash
-└─$ # Easter Egg: The percentage of Git skill is the answer to the ultimate question ;)
-```
-
----
-
-## `root@github:~#` cat current_missions.log
 
 ```diff
-┌──(DDxMI7㉿github)-[~/projects]
-└─$ tail -f activity.log
-
 [2026-01-29 03:42:01] INFO  Starting new project...
 [2026-01-29 03:42:02] DEBUG Coffee levels: ████████░░ 80%
 + [2026-01-29 03:42:03] SUCCESS Learning new frameworks
@@ -118,13 +48,11 @@ drwxr-xr-x 24 DDxMI7 DDxMI7 4.0K Jan 29 03:14 ..
 - [2026-01-29 03:42:06] ERROR  Sleep schedule: CRITICAL
 ! [2026-01-29 03:42:07] WARN   Caffeine dependency detected
 [2026-01-29 03:42:08] INFO  Deploying to production...
-[2026-01-29 03:42:09] INFO  Everything is fine 🔥
+[2026-01-29 03:42:09] INFO  Everything is fine 
 [2026-01-29 03:42:10] DEBUG This is fine. Totally fine.
 ```
 
 ---
-
-## `root@github:~#` ./show_stats.sh
 
 ```bash
 #!/bin/bash
@@ -147,17 +75,6 @@ echo ""
 ╚════════════════════════════════════════════════════════════╝
 ```
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DDxMI7&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=00FF41&ring_color=00FF41&fire_color=00FF41)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DDxMI7&theme=black-ice&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DDxMI7&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=00FF41)
-
-```
-╔════════════════════════════════════════════════════════════╗
-║  FLAG{c0ngr4ts_y0u_f0und_fl4g_2_0f_5}                     ║
-╚════════════════════════════════════════════════════════════╝
-```
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DDxMI7&theme=high-contrast&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=00FF41&area=true&custom_title=Contribution%20Activity%20%7C%20Total%20Commits%20%3D%20FLAG_3)
 
@@ -194,8 +111,6 @@ echo "[✓] Dashboard operational"
 ## `root@github:~#` ./projects --status
 
 ```bash
-┌──(DDxMI7㉿github)-[~/projects]
-└─$ tree -L 2 -a
 
 projects/
 ├── .git/
@@ -221,7 +136,6 @@ projects/
 
 ---
 
-## `root@github:~#` echo $TECH_STACK
 
 <div align="center">
 
@@ -377,46 +291,6 @@ Current Activities:
 * 7e3b6f2 commit before I break everything
 * 4d9a1c5 IT WORKS!!!! (I think...)
 ```
-
----
-
-## `root@github:~#` cat memes.sh
-
-```bash
-#!/bin/bash
-# Developer Memes as Code
-
-function debugging() {
-    echo "Debugging is like being a detective in a crime movie"
-    echo "where you are also the murderer"
-    echo "and the victim"
-    echo "and the weapon"
-}
-
-function copy_paste_overflow() {
-    while [ $stackoverflow_tabs -lt 47 ]; do
-        open "https://stackoverflow.com/search?q=${random_error}"
-        stackoverflow_tabs=$((stackoverflow_tabs + 1))
-    done
-}
-
-function prod_deployment() {
-    if [ "$(date +%A)" == "Friday" ]; then
-        echo "Never deploy on Friday"
-        exit 1
-    fi
-    
-    # Deploy anyway
-    git push origin main --force
-    echo "What could go wrong?"
-}
-
-# Reality check
-echo "Lines of code written: 10,000"
-echo "Lines of code that work: 47"
-echo "Lines of code understood: 3"
-```
-
 ---
 
 ## `root@github:~#` fortune
@@ -448,81 +322,11 @@ echo "Lines of code understood: 3"
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
-![Profile Views](https://komarev.com/ghpvc/?username=DDxMI7&color=00FF41&style=for-the-badge&label=VISITORS)
-
+<img src="https://komarev.com/ghpvc/?username=DDxMI7&color=00FF00&style=for-the-badge&label=INTRUSION+ATTEMPTS" />
 ```
 Thank you for visiting my profile!
 You are visitor number: [ENCRYPTED]
-Your IP has been logged: Just kidding... or am I? 👀
+Your IP has been logged: Just kidding... or am I? 
 ```
 
 </div>
-
----
-
-## `root@github:~#` easter_eggs --list
-
-```bash
-┌──(DDxMI7㉿github)-[~]
-└─$ ./find_all_flags.sh
-
-Scanning for hidden flags...
-[████████████████████████████████] 100%
-
-Found 5 hidden flags in this profile!
-Can you find them all?
-
-Hints:
-1. Check environment variables
-2. Look in the stats section
-3. History always remembers
-4. Something's encoded in base64
-5. The ultimate answer is hidden in plain sight
-
-Good luck, CTF hunter! 🚩
-```
-
----
-
-## `root@github:~#` exit
-
-```bash
-┌──(DDxMI7㉿github)-[~]
-└─$ cat farewell.txt
-
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║  Thanks for stopping by!                                 ║
-║                                                           ║
-║  If you found this interesting:                          ║
-║  - ⭐ Star some repos                                    ║
-║  - 🔄 Fork and contribute                                ║
-║  - 🤝 Connect and collaborate                            ║
-║                                                           ║
-║  Stay curious. Keep coding. Break things (safely).       ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
-
-└─$ logout
-Connection to github.com closed.
-```
-
----
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────┐
-│                                                 │
-│  > Session terminated                           │
-│  > All logs encrypted                           │
-│  > See you in the code                          │
-│                                                 │
-└─────────────────────────────────────────────────┘
-```
-
-</div>
-
-```bash
-root@github:~# █
-```
