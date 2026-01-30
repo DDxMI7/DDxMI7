@@ -41,23 +41,6 @@
 </td>
 <td width="auto" valign="top">
 
-### `$ cat interests.json`
-
-```json
-{
-  "interests": [
-    "Web Development",
-    "CTF Challenges", 
-    "Open Source",
-    "Breaking & Fixing Code"
-  ],
-  "currently_learning": "Everything"
-}
-```
-
-</td>
-<td width="auto" valign="top">
-
 ### `$ cat joke.json?`
   
 ```json
